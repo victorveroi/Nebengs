@@ -4,9 +4,9 @@ import { useState } from "react";
 export default function Home() {
   const [search, setSearch] = useState("");
   const rides = [
-  { id: 1, driverId: "jonathan", name: "Jonathan M.", from: "San Francisco, CA", to: "San Jose, CA", date: "Mar 25, 2025", time: "08:00 AM" },
-  { id: 2, driverId: "diane", name: "Diane W.", from: "Los Angeles, CA", to: "Santa Barbara, CA", date: "Mar 26, 2025", time: "09:00 AM" },
-  { id: 3, driverId: "carlos", name: "Carlos P.", from: "Palo Alto, CA", to: "Mountain View, CA", date: "Mar 27, 2025", time: "07:30 AM" },
+  { id: 1, driverId: "Moreno", name: "Moreno M.", from: "Stasiun UI", to: "PNJ", date: "Mar 25, 2025", time: "08:00 AM" },
+  { id: 2, driverId: "Mia", name: "Mia K.", from: "Stasiun Pocin", to: "VOKASI", date: "Mar 26, 2025", time: "09:00 AM" },
+  { id: 3, driverId: "Bintang", name: "Bintang A.", from: "Vokasi", to: "Stasiun UI", date: "Mar 27, 2025", time: "07:30 AM" },
 ];
 
   const filteredRides = rides.filter(
