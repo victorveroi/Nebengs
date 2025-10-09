@@ -15,7 +15,7 @@ export default function RideCard({ name, from, to, date, time, driverId }) {
       </p>
 
       <Link
-        to={`/profile/${driverId}`}
+        to={`/JoinRide/${driverId}`}
         className="block text-center bg-gradient-to-r from-blue-600 to-cyan-500 text-white py-2.5 rounded-xl font-medium hover:shadow-lg hover:from-blue-700 hover:to-cyan-600 transition"
       >
         Join Ride

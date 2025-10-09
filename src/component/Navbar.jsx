@@ -4,7 +4,12 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-600 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold tracking-wide">Nebengs</Link>
+        {/* Logo + Brand */}
+<Link to="/" className="flex items-center space-x-3">
+        <img src="/img/logo.png" alt="Nebengs Logo" className="h-[35px] w-auto mt-2" />
+        <span className="text-3xl font-bold tracking-wide">Nebengs</span>
+          </Link>
+        {/* Menu */}
         <div className="flex items-center space-x-6">
           <Link to="/" className="hover:text-yellow-300">Home</Link>
           <Link to="/add" className="hover:text-yellow-300">Add Ride</Link>
