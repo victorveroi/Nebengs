@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/Nebengs/',
+  base: '/',
 })
