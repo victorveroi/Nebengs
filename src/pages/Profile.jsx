@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 
 const dummyDrivers = {
-  jonathan: { name: "Jonathan M.", faculty: "Fasilkom", rating: 4.8, vehicle: "Honda Jazz" },
-  diane: { name: "Diane W.", faculty: "FEB", rating: 4.6, vehicle: "Yamaha NMAX" },
-  carlos: { name: "Carlos P.", faculty: "FT", rating: 4.9, vehicle: "Toyota Avanza" },
+  Moreno: { name: "Moreno M.", faculty: "Fasilkom", rating: 4.8, vehicle: "Honda Jazz" },
+  Mia: { name: "Mia K.", faculty: "FEB", rating: 4.6, vehicle: "Yamaha NMAX" },
+  Bintang: { name: "Bintang M.", faculty: "FT", rating: 4.9, vehicle: "Toyota Avanza" },
 };
 
 export default function Profile() {
